@@ -6,17 +6,17 @@
 	Lain Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
-## 👀 Preview
+## (╭ರ_•́) Preview
 
 <img src="preview.png" width="600" />
 
-## 🎨 Installation
+## ⿻ Installation
 
 ```sh
 ya pkg add identityapproved/lain
 ```
 
-## ⚙️ Usage
+## (✿ᴗ͈ˬᴗ͈)⁾⁾ Usage
 
 To set it as your dark flavor, change the content of your `theme.toml` to:
 
@@ -29,8 +29,8 @@ Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unle
 
 See the [Yazi flavor documentation](https://yazi-rs.github.io/docs/flavors/overview) for more details.
 
-## 📜 License
+## ⎙ License
 
-The flavor is MIT-licensed.
+The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
 
-Check the [LICENSE](LICENSE) file for more details.
+Check the [LICENSE](LICENSE) and [LICENSE-tmtheme](LICENSE-tmtheme) file for more details.
