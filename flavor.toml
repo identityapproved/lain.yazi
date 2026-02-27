@@ -152,6 +152,7 @@ footer  = { fg = "#000000", bg = "#C1B48E" }
 # : File-specific styles {{{
 [filetype]
 rules = [
+	{ mime = "inode/directory", fg = "#C1B48E", bold = true },
 	{ mime = "image/*", fg = "#C1B48E" },
 	{ mime = "{audio,video}/*", fg = "#FFDCB9" },
 	{ mime = "application/{pdf,doc,rtf,odt,docx,xlsx,pptx}", fg = "#CE7688" },
