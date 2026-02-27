@@ -170,8 +170,11 @@ rules = [
 
 # : Icons {{
 [icon]
-# Force folder icon color to Lain ochre to avoid default blue icons.
+# Force folder icon color to Lain ochre; overrides Yazi's default blue `if = "dir"` fallback.
 dirs = [
 	{ name = "*", text = "󰉋", fg = "#C1B48E" },
+]
+conds = [
+	{ if = "dir", text = "󰉋", fg = "#C1B48E" },
 ]
 # : }}
