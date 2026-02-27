@@ -167,3 +167,11 @@ rules = [
 	{ name = "*/", fg = "#C1B48E", bold = true },
 ]
 # : }}}
+
+# : Icons {{
+[icon]
+# Force folder icon color to Lain ochre to avoid default blue icons.
+dirs = [
+	{ name = "*", text = "󰉋", fg = "#C1B48E" },
+]
+# : }}
